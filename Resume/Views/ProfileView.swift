@@ -42,7 +42,7 @@ struct ProfileView: View {
                         }
                     AppIconView("articles")
                         .onTapGesture {
-                            openURL("https://getarticles.netlify.app/")
+                            openURL("https://testflight.apple.com/join/bHk6JFym")
                         }
                 }
             }
