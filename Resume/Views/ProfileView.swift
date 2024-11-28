@@ -50,10 +50,16 @@ struct ProfileView: View {
             VStack(alignment: .leading) {
                 Text("Open Source")
                     .font(.headline)
-                AppIconView("codeedit")
-                    .onTapGesture {
-                        openURL("https://www.codeedit.app")
-                    }
+                HStack {
+                    AppIconView("codeedit")
+                        .onTapGesture {
+                            openURL("https://www.codeedit.app")
+                        }
+                    AppIconView("datainspector")
+                        .onTapGesture {
+                            openURL("https://github.com/DataInspectorApp/Data-Inspector")
+                        }
+                }
             }
             
             VStack(alignment: .leading) {
