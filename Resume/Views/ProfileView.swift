@@ -24,7 +24,7 @@ struct ProfileView: View {
                         Label("Pamplona, Spain", systemImage: "mappin")
                     }
                 }
-                Text("Software enginner focused on Apple Platforms and Web. 19+ years of experience on projects in scientific publishing, collaborative economy, social networking and more.")
+                Text("Software engineer focused on Apple Platforms and Web. 19+ years of experience on projects in scientific publishing, collaborative economy, social networking and more.")
                     
             }
             
